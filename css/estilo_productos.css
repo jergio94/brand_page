@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700i&display=swap');
+
+/* variables */
+:root{
+  --green-color: #008600;
+  --white-color: white;
+/* padding 10px */
+  --space:10px;
+
+}
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family:'Open Sans', sans-serif;
+}
+
+nav{
+  display:flex;
+  background-color: var(--green-color);
+  padding:var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+display: flex;
+}
+
+nav li{
+  padding-left:20px;
+  list-style: none;
+}
+
+nav li a{
+color: black;
+text-decoration:none;
+}
+
+nav li a:hover{
+  color :var(--white-color);
+}
+/* container ---------------------------------------------------------------------------------------------------------------------------------*/
+
+.row{
+  padding: 5%;
+}
+
+.productos{
+  padding: 10%;
+}
+
+.row img {
+  max-width: 275px;
+}
+
+.col-8{
+  margin-top: 10%;
+}
+
+
+/* container- */
+footer{
+
+  display:flex;
+  background-color: var(--green-color);
+  padding:var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
